@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/reza/.oh-my-zsh
@@ -10,8 +10,8 @@ DEFAULT_USER="reza"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="spaceship"
 # ZSH_THEME="agnoster"
 
 # Needed for spotify segment of PL9K
@@ -32,22 +32,23 @@ ZSH_THEME="spaceship"
 
 # POWERLEVEL9K_CUSTOM_SPOTIFY_STATUS_BACKGROUND="blue"
 
-# POWERLEVEL9K_STATUS_OK=false
-# POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='172'
-# POWERLEVEL9K_DIR_HOME_BACKGROUND='172'
-# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='172'
-# POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='black'
-# POWERLEVEL9K_DIR_HOME_FOREGROUND='black'
-# POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='black'
 
-# # Advanced `vcs` color customization
-# POWERLEVEL9K_VCS_CLEAN_FOREGROUND='blue'
-# POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
-# POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
-# POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
-# POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
-# POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
+POWERLEVEL9K_STATUS_OK=false
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='172'
+POWERLEVEL9K_DIR_HOME_BACKGROUND='172'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='172'
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='black'
+POWERLEVEL9K_DIR_HOME_FOREGROUND='black'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='black'
+
+# Advanced `vcs` color customization
+POWERLEVEL9K_VCS_CLEAN_FOREGROUND='blue'
+POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
+POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -156,4 +157,4 @@ alias ga="git add"
 alias gs="git status"
 
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-# export PS1="\h:\W \u\$ "
+# export PS1="\h:\W \u\$"
